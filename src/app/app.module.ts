@@ -1,16 +1,15 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AddProductDialogComponent } from './Dialog/add-product-dialog/add-product-dialog.component';
+import { AngularMaterialModule } from 'src/Materials/angular-material.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddProductDialogComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    AngularMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,27 @@
+{
+  "productList": [
+    {
+      "productName": "Samsung J7 Next",
+      "productCategory": "electronics",
+      "productConditions": "Second Hand",
+      "productPrice": 25000,
+      "productDate": "2022-05-27T18:00:00.000Z",
+      "productComment": "Second Hand.",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "DPT": {
+    "status": "Success",
+    "Department":{
+      "DepartmentId" : 1,
+      "DepartmentName": "MIS"
+    }
+  }
+}
